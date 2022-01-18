@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font: normal 15px Arial, sans-serif;
+    background-color: #EEEEEE;
+    color: #798D90;
+}
+
+form {
+    padding: 0 0 0 5%;
+}
+
+form input {
+    padding: 0 0 0 10px;
+}
+.formulario {
+    width: 450px;
+    transform: translateY(30%);
+    margin: auto;
+    border: 1px solid #C4D6D8;
+    background-color: #F6F6F6;
+}
+.formulario-title {
+    color: #036873;
+    font-size: 3em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#femail, #fpassword {
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
+    margin: 5px 0 20px 0;
+}
+
+#fsubmit {
+    background-color: #3D9DB3;
+    color: white;
+    width: 95%;
+    height: 40px;
+    margin: 20px 0;
+    font-weight: 400;
+    border: 1px solid #3D9DB3;
+    border-radius: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #c4d6d8;
+    margin: auto;           
+}
+
+.formulario form {
+    margin: 25px 0 0 0;
+}
+
+label {
+    color: #036873;
+}
+
+.formulario-bottom {
+    background-color: #E1EAEB;
+    text-align: right;
+    height: 60px;
+    margin: 10px 0 0 0;
+    line-height: 60px;
+}
+
+.button-cadastro {
+    padding: 1%;
+    background-color: #2CA8C4;
+    border: 2px solid #D9E292;
+    color: white;
+    font-weight: 600;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 15;
+}
+
+.button-cadastro:hover {
+    background-color: white;
+    color: #2CA8C4;
+}
+
+a {
+    text-decoration: none;
+}
