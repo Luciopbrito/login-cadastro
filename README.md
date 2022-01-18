@@ -4,4 +4,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Luciopbrito/login-cadastro)
 # Layout Cadastro
 ## Observação
-Objetivo é praticar o conhecimento em CSS e trazer um design atrativo para o usuário.
+Objetivo é praticar o conhecimento em CSS e trazer um design atrativo para o usuário baseado no exemplo abaixo.
+![imagem de exemplo](exemplo-formulario.png)
