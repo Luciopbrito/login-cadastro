@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font: normal 20px Arial, sans-serif;
+        }
+
+        body > :nth-child(1) {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .social__media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social__media > a > img {
+            max-width: 60px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 0 0 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Bem vindo</h1>
+        <p>Redes Sociais</p>
+        <div class="social__media">
+            <a href="http://github.com/Luciopbrito/" target="_blank"><img src="./img/social_media1.png" alt="rede social"></a>
+            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank"><img src="./img/social_media2.png" alt="rede social"></a>
+        </div>
+        <button onclick="voltar()">Voltar</button>
+    </div>
+</body>
+<script src="./js/voltar.js"></script>
+</html>
