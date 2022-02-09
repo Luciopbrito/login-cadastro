@@ -9,19 +9,20 @@
 </head>
 <body>
     <div class="formulario">
-        <h1 class="formulario-title">Login</h1><hr>
-        <form action="#">
+        <h1 class="formulario__title">Login</h1><hr>
+        <form action="">
             <label for="femail">Seu e-mail</label>
             <input type="email" name="femail" id="femail" placeholder="contato@htmlecsspro.com"><br>
             <label for="fpassword">Sua Senha</label>
-            <input type="password" name="fpassword" id="fpassword" placeholder="****"><br>
+            <input type="password" name="fpassword" id="fpassword" placeholder="*********"><br>
             <input type="checkbox" name="flogado" id="flogado">
             <label for="flogado">Manter-me logado</label><br>
-            <a href="home.html" rel="_self"><input type="submit" id="fsubmit" value="Logar"></a>
+            <input type="submit" id="fsubmit" value="Logar" onclick="acessar()">
         </form>
-        <div class="formulario-bottom">
-            <p>Ainda não tem conta?<a href="#"><span class="button-cadastro">Cadastre-se</span></a></p>
+        <div class="formulario__bottom">
+            <p>Ainda não tem conta?<a href="#"><span class="button__cadastro">Cadastre-se</span></a></p>
         </div>
     </div>
 </body>
+<script src="./js/acessar.js"></script>
 </html>
